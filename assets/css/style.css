@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Roboto');
+html {
+  font-size: 18px; /* Define root font-size */
+} font-size: 25px; /* Define root font-size * /
+}
+
+/* MAIN COPY SIZING */
+h1 { font-size: 2.25rem; /* Computes to 40.50px */ }
+h2 { font-size: 1.5rem;  /* Computes to 27.00px */ }
+h3 { font-size: 1.125rem;/* Computes to 20.25px */}
+h4 { font-size: 1.05rem; font-style: italic; }
+h4 { font-size: 3.05rem; font-style: bold, italic; }
+
+/* MAIN FONT FAMILIES */
+h1, h2 {
+  font-family: Monoton;
+}
+
+h3, h4, h5, p {
+  font-family: Roboto;
+}
+
 /*--------------------------------------
  General Visual Styling
  -------------------------------------*/
