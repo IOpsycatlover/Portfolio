@@ -1,0 +1,81 @@
+/*--------------------------------------
+ General Visual Styling
+ -------------------------------------*/
+
+header, nav, section {
+  color: #000000;
+  font-family: Avenir, Heveltica, Arial, san-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+header, nav, section {
+  /* Help distinguish the different grid items */
+  padding: 1em;
+  border: #F9423A solid 0.5px;
+}
+p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/*--------------------------------------
+ Grid Layout
+ -------------------------------------*/
+/*
+  CSS Grid Reference:
+    https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
+main {
+  display: grid; /*define grid on parent*/
+  grid-gap: 1rem;
+}
+header {
+  /*
+    Note how 6 is the largest track
+    number for columns.
+  */
+  grid-column: 1 / 6;
+}
+nav {
+  grid-column: 2 / 6;
+}
+section#bio {
+  grid-column: 1 / 2;
+  /*
+    Note how 6 is the largest track
+    number for rows.
+  */
+  grid-row: 2 / 6;
+}
+section#content {
+  grid-column: 2 / 6;
+  grid-row: 3 / 6;
+}
+
+/*--------------------------------------
+ <MAIN> Children Styles
+ -------------------------------------*/
+/*
+  CSS Flexbox Reference:
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+/* Header (with flexbox) */
+header {
+  display: flex;
+  align-items: center;
+}
+header img {
+  margin-right: 15px;
+}
+
+/* Navigation (with flexbox) */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  /* CSS overrides */
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+}
