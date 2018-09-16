@@ -25,7 +25,7 @@ h3, h4, h5, p {
  -------------------------------------*/
 
 header, nav, section {
-  color: #000000;
+  color: #6a5acd;
   font-family: Avenir, Heveltica, Arial, san-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -33,7 +33,7 @@ header, nav, section {
 header, nav, section {
   /* Help distinguish the different grid items */
   padding: 1em;
-  border: #F9423A solid 0.5px;
+  border: #3cb371 solid 0.5px;
 }
 p {
   font-size: 1rem;
