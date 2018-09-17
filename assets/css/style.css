@@ -3,19 +3,20 @@
  -------------------------------------*/
 
 header, nav, section {
-  color: #000000;
-  font-family: Avenir, Heveltica, Arial, san-serif;
+  color: #6a5acd;
+  font-family:'Dosis', san-serif;
   font-weight: bold;
   font-size: 1.5rem;
 }
 header, nav, section {
   /* Help distinguish the different grid items */
   padding: 1em;
-  border: #F9423A solid 0.5px;
+  border: #3cb371 solid 0.5px;
 }
 p {
   font-size: 1rem;
   font-weight: normal;
+  text-align: justify;
 }
 
 /*--------------------------------------
